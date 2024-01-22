@@ -61,7 +61,7 @@ function Prices(props: {visible: boolean}) {
             },
           },
           xaxis: {
-            range: ['2018-07-01', inAWeekStr],
+            range: ['2023-12-01', inAWeekStr],
             fixedrange: true,
             type: 'date',
             title: {

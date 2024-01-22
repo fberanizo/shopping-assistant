@@ -2,12 +2,14 @@ import j0 from '../../data/2023-12-22-SONDA.json';
 import j1 from '../../data/2023-12-27-SONDA.json';
 import j2 from '../../data/2023-12-29-SONDA.json';
 import j3 from '../../data/2024-01-11-SONDA.json';
+import j4 from '../../data/2024-01-13-SONDA.json';
 
 const data = {
   '2023-12-22': j0,
   '2023-12-27': j1,
   '2023-12-29': j2,
   '2024-01-11': j3,
+  '2024-01-13': j4,
 };
 
 export function fetchPrices(regex: string) {
