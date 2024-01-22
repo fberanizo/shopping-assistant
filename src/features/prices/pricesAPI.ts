@@ -1,7 +1,9 @@
 import j0 from '../../data/2023-12-22-SONDA.json';
+import j1 from '../../data/2023-12-27-SONDA.json';
 
 const data = {
   '2023-12-22': j0,
+  '2023-12-27': j1,
 };
 
 export function fetchPrices(regex: string) {
