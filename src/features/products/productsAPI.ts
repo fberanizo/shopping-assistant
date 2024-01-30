@@ -9,5 +9,6 @@ export function fetchProducts() {
     {regex: '(MORANGO BD)', text: 'Morango'},
     {regex: '(OVOS NATUREGG CAIP)', text: 'Ovos'},
     {regex: '(SOBRECOXA FGO.KORIN CONG.600g)', text: 'Sobrecoxa de Frango'},
+    {regex: '(MASSA TAP.DA TERRINHA PRONTA|GOMA TAP TERR)', text: 'Tapioca'},
   ]});
 }
