@@ -35,7 +35,7 @@ export function fetchPrices(regex: string) {
   let venues: Array<string> = [];
   for (let entry of Object.entries(data)) {
     for (let i = 0; i < entry[1]['names'].length; i++) {
-      if (entry[1]['names'][i].match(regex)) {
+      if (entry[1]['names'][i].match(new RegExp(regex, "i"))) {
         x.push(entry[0]);
         y.push(entry[1]['values'][i] as number);
         text.push(entry[1]['names'][i] + "<br>R$" + entry[1]['values'][i] + "<br>" + entry[1]['venue']);

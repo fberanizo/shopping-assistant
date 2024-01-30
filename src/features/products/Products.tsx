@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import { Drawer, List, Typography } from 'antd';
+import { Drawer, Input, List, Typography } from 'antd';
 
 import { useAppSelector, useAppDispatch } from '../../app/hooks';
 import {
@@ -34,6 +34,7 @@ function Products(props: {visible: boolean, setVisible: (visible: boolean) => vo
       visible={visible}
       mask={false}
     >
+      <Input.Search placeholder="Search" onSearch={(value: String) => dispatch(viewProductAsync(({regex: `(${value})`, text: value} as Product)))} />
       <List
         size='small'
         dataSource={productList}
