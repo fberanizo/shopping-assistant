@@ -8,6 +8,9 @@ import j6 from '../../data/2024-01-15-SONDA.json';
 import j7 from '../../data/2024-01-16-PAGUE-MENOS.json';
 import j8 from '../../data/2024-01-21-PAGUE-MENOS.json';
 import j9 from '../../data/2024-01-28-CARREFOUR.json';
+import j10 from '../../data/2024-01-24-SONDA.json';
+import j11 from '../../data/2024-01-23-SONDA.json';
+import j12 from '../../data/2024-01-21-CARREFOUR.json';
 
 const data = {
   '2023-12-22': j0,
@@ -19,6 +22,9 @@ const data = {
   '2024-01-15': j6,
   '2024-01-16': j7,
   '2024-01-21': j8,
+  '2024-01-20': j12,
+  '2024-01-23': j11,
+  '2024-01-24': j10,
   '2024-01-28': j9,
 };
 
