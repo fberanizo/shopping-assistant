@@ -13,7 +13,7 @@ Dashboard to follow the price history of groceries purchases I made.
 1. Access *Cupom Fiscal Eletrônico na NFP* page ([example here](./cupom.png))
 2. Run the following script on the Web browser console:
 ```js
-var json = {"venue": "NOME-DO-SUPERMERCADO", "names": [], "values": []};
+var json = {"venue": "CARREFOUR", "names": [], "values": []};
 document.querySelectorAll("#tableItens tbody tr").forEach(tr => {
   var items = Array.from(tr.querySelectorAll("td"));
   if (items.length === 8) {
@@ -23,6 +23,17 @@ document.querySelectorAll("#tableItens tbody tr").forEach(tr => {
     json["names"].push(itemName);
     json["values"].push(valueUnit);
   }
+});
+json;
+```
+```js
+document.querySelectorAll("#tabResult tbody tr").forEach(tr => {
+  var items = Array.from(tr.querySelectorAll("td span.txtTit"));
+  var itemName = items[0].innerHTML;
+  var itemsV = Array.from(tr.querySelectorAll("td span.valor"));
+  var valueUnit = parseFloat(itemsV[0].innerHTML.replace(",", "."));
+  json["names"].push(itemName);
+  json["values"].push(valueUnit);
 });
 json;
 ```
