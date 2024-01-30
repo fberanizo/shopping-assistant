@@ -27,7 +27,7 @@ function Prices(props: {visible: boolean}) {
     );
   }
 
-  const palette: Array<string> = ["#69b3a2", "#0097a7", "#03a9f4", "#3949ab", "#5e35b1", "#8e24aa", "#f4511e"];
+  const palette: Array<string> = ["#ff8a31", "#ff6702", "#004ea8", "#3949ab", "#5e35b1", "#8e24aa", "#f4511e"];
   const color: Array<string> = venues.map(venue => palette[uniqueVenues.indexOf(venue)]);
   const line: string = mode(color);
   const drawerWidth = visible ? 328 : 0;
