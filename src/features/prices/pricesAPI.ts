@@ -7,6 +7,7 @@ import j5 from '../../data/2024-01-14-PAGUE-MENOS.json';
 import j6 from '../../data/2024-01-15-SONDA.json';
 import j7 from '../../data/2024-01-16-PAGUE-MENOS.json';
 import j8 from '../../data/2024-01-21-PAGUE-MENOS.json';
+import j9 from '../../data/2024-01-28-CARREFOUR.json';
 
 const data = {
   '2023-12-22': j0,
@@ -18,6 +19,7 @@ const data = {
   '2024-01-15': j6,
   '2024-01-16': j7,
   '2024-01-21': j8,
+  '2024-01-28': j9,
 };
 
 export function fetchPrices(regex: string) {
