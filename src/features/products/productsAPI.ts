@@ -2,7 +2,7 @@
 export function fetchProducts() {
   return Promise.resolve({data: [
     {regex: '(ACUCAR)', text: 'Açúcar'},
-    {regex: '(AGUA|AG M)', text: 'Água 1.5L'},
+    {regex: '(AGUA |AG M)', text: 'Água 1.5L'},
     {regex: '(ARROZ)', text: 'Arroz'},
     {regex: '(ATUM)', text: 'Atum'},
     {regex: '(BACON|BAC PALETA)', text: 'Bacon'},
