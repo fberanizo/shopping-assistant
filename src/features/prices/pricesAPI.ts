@@ -19,6 +19,11 @@ import j17 from '../../data/2024-02-03-SONDA.json';
 import j18 from '../../data/2024-02-04-PAO.json';
 import j19 from '../../data/2024-02-05-SONDA.json';
 import j20 from '../../data/2024-02-07-SONDA.json';
+import j21 from '../../data/2024-02-09-PAO.json';
+import j22 from '../../data/2024-02-10-SUMERBOL.json';
+import j23 from '../../data/2024-02-11-PERALTA.json';
+import j24 from '../../data/2024-02-12-CARREFOUR.json';
+import j25 from '../../data/2024-02-13-SONDA.json';
 
 const data = {
   '2023-12-22': j0,
@@ -42,6 +47,11 @@ const data = {
   '2024-02-04': j18,
   '2024-02-05': j19,
   '2024-02-07': j20,
+  '2024-02-09': j21,
+  '2024-02-10': j22,
+  '2024-02-11': j23,
+  '2024-02-12': j24,
+  '2024-02-13': j25,
 };
 
 export function fetchPrices(regex: string) {
