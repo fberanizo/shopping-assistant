@@ -2,7 +2,7 @@
 export function fetchProducts() {
   return Promise.resolve({data: [
     {regex: '(ACEM)', text: 'Acem'},
-    {regex: '(ACUCAR)', text: 'Açúcar'},
+    {regex: '(ACUCAR|AC DEMERARA)', text: 'Açúcar'},
     {regex: '(AGUA |AG M)', text: 'Água 1.5L'},
     {regex: '(ALHO)', text: 'Alho'},
     {regex: '(ARROZ)', text: 'Arroz'},
@@ -18,11 +18,12 @@ export function fetchProducts() {
     {regex: '(DETERGENTE)', text: 'Detergente'},
     {regex: '(DESOD)', text: 'Desodorante'},
     {regex: '(TININDO)', text: 'Esponja'},
-    {regex: '(NOT MILK)', text: 'Leite'},
+    {regex: '(NOT MILK|NOTMIL)', text: 'Leite'},
     {regex: '(LIMAO)', text: 'Limão Taiti'},
     {regex: '(LIN CAL)', text: 'Linguiça Calabresa'},
     {regex: '(MACARRAO)', text: 'Macarrão'},
     {regex: '(MAMAO)', text: 'Mamão Papaya'},
+    {regex: '(MANT)', text: 'Manteiga'},
     {regex: '(MARGARINA)', text: 'Margarina'},
     {regex: '(MORANGO)', text: 'Morango'},
     {regex: '(EMPAN)', text: 'Nuggets'},
