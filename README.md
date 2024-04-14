@@ -30,8 +30,8 @@ json;
 document.querySelectorAll("#tabResult tbody tr").forEach(tr => {
   var items = Array.from(tr.querySelectorAll("td span.txtTit"));
   var itemName = items[0].innerHTML;
-  var itemsV = Array.from(tr.querySelectorAll("td span.valor"));
-  var valueUnit = parseFloat(itemsV[0].innerHTML.replace(",", "."));
+  var itemsV = Array.from(tr.querySelectorAll("td span.RvlUnit"));
+  var valueUnit = parseFloat(itemsV[0].innerHTML.replace(/[^\d,]/g,"").replace(",", "."));
   json["names"].push(itemName);
   json["values"].push(valueUnit);
 });
