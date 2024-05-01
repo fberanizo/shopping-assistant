@@ -53,6 +53,18 @@ import j51 from '../../data/2024-04-06-SUMERBOL.json';
 import j52 from '../../data/2024-04-07-CARREFOUR.json';
 import j53 from '../../data/2024-04-08-SUMERBOL.json';
 import j54 from '../../data/2024-04-11-SONDA.json';
+import j55 from '../../data/2024-04-14-CARREFOUR.json';
+import j56 from '../../data/2024-04-15-SONDA.json';
+import j57 from '../../data/2024-04-17-SUMERBOL.json';
+import j58 from '../../data/2024-04-19-SUMERBOL.json';
+import j59 from '../../data/2024-04-20-SUMERBOL.json';
+import j60 from '../../data/2024-04-21-PAGUE-MENOS.json';
+import j61 from '../../data/2024-04-22-SUMERBOL.json';
+import j62 from '../../data/2024-04-23-SONDA.json';
+import j63 from '../../data/2024-04-24-PERALTA.json';
+import j64 from '../../data/2024-04-26-SONDA.json';
+import j65 from '../../data/2024-04-28-PAGUE-MENOS.json';
+import j66 from '../../data/2024-04-30-SUMERBOL.json';
 
 const data = {
   '2023-12-22': j0,
@@ -110,6 +122,18 @@ const data = {
   '2024-04-07': j52,
   '2024-04-08': j53,
   '2024-04-11': j54,
+  '2024-04-14': j55,
+  '2024-04-15': j56,
+  '2024-04-17': j57,
+  '2024-04-19': j58,
+  '2024-04-20': j59,
+  '2024-04-21': j60,
+  '2024-04-22': j61,
+  '2024-04-23': j62,
+  '2024-04-24': j63,
+  '2024-04-26': j64,
+  '2024-04-28': j65,
+  '2024-04-30': j66,
 };
 
 export function fetchPrices(regex: string) {
