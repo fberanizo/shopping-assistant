@@ -7,23 +7,24 @@ import { checkItemAsync, shoppingListSelector, viewPriceAsync } from './shopping
 
 function ShoppingList() {
   const shoppingList = useAppSelector(shoppingListSelector);
-  const { prices, checked } = shoppingList;
+  const { items, prices, checked } = shoppingList;
   const dispatch = useAppDispatch();
-  const items = prices.map(function(p, i) {
-    return {price: p, checked: checked[i]};
+  const source = prices.map((p, i) => {
+    return {item: items[i], price: p, checked: checked[i]};
   });
   return (
       <List
-        dataSource={items}
-        renderItem={({price, checked}, index: number) => (
+        dataSource={source}
+        renderItem={({item, price, checked}, index: number) => (
           <List.Item>
             <Input
+              defaultValue={`${item}`}
               disabled={checked}
               size='large'
               style={{textDecoration: checked ? "line-through" : "none"}}
               onChange={(e) => dispatch(viewPriceAsync(e.target.value, index))}
               addonBefore={<Checkbox onChange={(e) => dispatch(checkItemAsync(index))}></Checkbox>}
-              addonAfter={`${price === 0 ? "": new Intl.NumberFormat('pt-BR', {style: 'currency',currency: 'BRL'}).format(price)}`}
+              addonAfter={`${price === 0 ? "": new Intl.NumberFormat("pt-BR", {style: "currency", currency: "BRL"}).format(price)}`}
               />
           </List.Item>
         )}

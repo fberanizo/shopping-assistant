@@ -157,8 +157,9 @@ export function fetchPrices(regex: string) {
   return Promise.resolve({data: {x, y, text, venues, uniqueVenues}});
 }
 
-export function fetchLatestPrice(regex: string, index: number) {
-  let price: number | null = null;
+export function fetchLatestPrice(item: string, index: number) {
+  const regex: string = `(${item})`;
+  let price: number = 0;
   for (let entry of Object.entries(data)) {
     for (let i = 0; i < entry[1]['names'].length; i++) {
       if (entry[1]['names'][i].match(new RegExp(regex, "i"))) {
@@ -167,5 +168,5 @@ export function fetchLatestPrice(regex: string, index: number) {
     }
   }
 
-  return Promise.resolve({data: {index, price}});
+  return Promise.resolve({data: {item, index, price}});
 }
