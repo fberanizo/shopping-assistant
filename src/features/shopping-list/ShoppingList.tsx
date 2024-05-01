@@ -23,7 +23,7 @@ function ShoppingList() {
               style={{textDecoration: checked ? "line-through" : "none"}}
               onChange={(e) => dispatch(viewPriceAsync(e.target.value, index))}
               addonBefore={<Checkbox onChange={(e) => dispatch(checkItemAsync(index))}></Checkbox>}
-              addonAfter={`${price == 0 ? "": new Intl.NumberFormat('pt-BR', {style: 'currency',currency: 'BRL'}).format(price)}`}
+              addonAfter={`${price === 0 ? "": new Intl.NumberFormat('pt-BR', {style: 'currency',currency: 'BRL'}).format(price)}`}
               />
           </List.Item>
         )}
