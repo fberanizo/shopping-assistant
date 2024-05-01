@@ -156,3 +156,16 @@ export function fetchPrices(regex: string) {
   let uniqueVenues: Array<string> = Object.values(data).map(d => d['venue']).filter((v, i, a) => a.indexOf(v) === i);
   return Promise.resolve({data: {x, y, text, venues, uniqueVenues}});
 }
+
+export function fetchLatestPrice(regex: string, index: number) {
+  let price: number | null = null;
+  for (let entry of Object.entries(data)) {
+    for (let i = 0; i < entry[1]['names'].length; i++) {
+      if (entry[1]['names'][i].match(new RegExp(regex, "i"))) {
+        price = entry[1]['values'][i] as number;
+      }
+    }
+  }
+
+  return Promise.resolve({data: {index, price}});
+}
