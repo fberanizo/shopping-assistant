@@ -65,6 +65,28 @@ import j63 from '../../data/2024-04-24-PERALTA.json';
 import j64 from '../../data/2024-04-26-SONDA.json';
 import j65 from '../../data/2024-04-28-PAGUE-MENOS.json';
 import j66 from '../../data/2024-04-30-SUMERBOL.json';
+import j67 from '../../data/2024-05-02-SONDA.json';
+import j68 from '../../data/2024-05-03-SUMERBOL.json';
+import j69 from '../../data/2024-05-04-PAGUE-MENOS.json';
+import j70 from '../../data/2024-05-05-PERALTA.json';
+import j71 from '../../data/2024-05-07-SUMERBOL.json';
+import j72 from '../../data/2024-05-13-SONDA.json';
+import j73 from '../../data/2024-05-14-SUMERBOL.json';
+import j74 from '../../data/2024-05-25-SONDA.json';
+import j75 from '../../data/2024-05-29-SUMERBOL.json';
+import j76 from '../../data/2024-05-31-SONDA.json';
+import j77 from '../../data/2024-06-03-SONDA.json';
+import j78 from '../../data/2024-06-04-SUMERBOL.json';
+import j79 from '../../data/2024-06-06-SONDA.json';
+import j80 from '../../data/2024-06-08-SUMERBOL.json';
+import j81 from '../../data/2024-06-10-SONDA.json';
+import j82 from '../../data/2024-06-13-SONDA.json';
+import j83 from '../../data/2024-06-17-SUMERBOL.json';
+import j84 from '../../data/2024-06-18-SONDA.json';
+import j85 from '../../data/2024-06-22-SONDA.json';
+import j86 from '../../data/2024-06-23-SUMERBOL.json';
+import j87 from '../../data/2024-06-24-SONDA.json';
+import j88 from '../../data/2024-06-27-CATO.json';
 
 const data = {
   '2023-12-22': j0,
@@ -134,6 +156,28 @@ const data = {
   '2024-04-26': j64,
   '2024-04-28': j65,
   '2024-04-30': j66,
+  '2024-05-02': j67,
+  '2024-05-03': j68,
+  '2024-05-04': j69,
+  '2024-05-05': j70,
+  '2024-05-07': j71,
+  '2024-05-13': j72,
+  '2024-05-14': j73,
+  '2024-05-25': j74,
+  '2024-05-29': j75,
+  '2024-05-31': j76,
+  '2024-06-03': j77,
+  '2024-06-04': j78,
+  '2024-06-06': j79,
+  '2024-06-08': j80,
+  '2024-06-10': j81,
+  '2024-06-13': j82,
+  '2024-06-17': j83,
+  '2024-06-18': j84,
+  '2024-06-22': j85,
+  '2024-06-23': j86,
+  '2024-06-24': j87,
+  '2024-06-27': j88,
 };
 
 export function fetchPrices(regex: string) {
