@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
 import { Layout } from 'antd';
+import Products from './features/products/Products';
+import Prices from './features/prices/Prices';
 import ShoppingList from './features/shopping-list/ShoppingList';
 import './App.css';
 
 function App() {
+  const [visible, setVisible] = useState(true);
   return (
-    <Layout style={{height:"100vh"}}>
-      <ShoppingList />
-    </Layout>
+    <Router>
+      <Layout style={{height:"100vh"}}>
+        <Routes>
+          <Route path="/prices">
+            <Products visible={visible} setVisible={setVisible} />
+            <Prices visible={visible} />
+          </Route>
+          <Route path="/">
+            <ShoppingList />
+          </Route>
+        </Routes>
+      </Layout>
+    </Router>
   );
 }
 
