@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Checkbox, Input, List } from 'antd';
 
@@ -13,6 +14,8 @@ function ShoppingList() {
     return {item: items[i], price: p, checked: checked[i]};
   });
   return (
+    <>
+      <Link to="/shopping-assistant/prices">Preços</Link>
       <List
         dataSource={source}
         renderItem={({item, price, checked}, index: number) => (
@@ -29,6 +32,7 @@ function ShoppingList() {
           </List.Item>
         )}
       />
+    </>
   );
 }
 
