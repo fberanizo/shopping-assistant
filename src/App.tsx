@@ -16,14 +16,14 @@ function App() {
     <Router>
       <Layout style={{height:"100vh"}}>
         <Routes>
-          <Route path="/" element={<ShoppingList />} />
-
-          <Route path="/prices" element={
-            <>
-              <Products visible={visible} setVisible={setVisible} />
-              <Prices visible={visible} />
-            </>
-          } />
+          <Route path="/" element={<ShoppingList />}>
+            <Route path="prices" element={
+              <>
+                <Products visible={visible} setVisible={setVisible} />
+                <Prices visible={visible} />
+              </>
+            } />
+          </Route>
         </Routes>
       </Layout>
     </Router>
