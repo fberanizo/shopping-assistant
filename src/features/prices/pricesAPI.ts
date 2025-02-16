@@ -87,6 +87,31 @@ import j85 from '../../data/2024-06-22-SONDA.json';
 import j86 from '../../data/2024-06-23-SUMERBOL.json';
 import j87 from '../../data/2024-06-24-SONDA.json';
 import j88 from '../../data/2024-06-27-CATO.json';
+import j89 from '../../data/2024-07-06-SUMERBOL.json';
+import j90 from '../../data/2024-07-07-SONDA.json';
+import j91 from '../../data/2024-07-09-SONDA.json';
+import j92 from '../../data/2024-07-10-CARREFOUR.json';
+import j93 from '../../data/2024-07-14-SUMERBOL.json';
+import j94 from '../../data/2024-06-22-SONDA.json';
+import j95 from '../../data/2024-07-24-SONDA.json';
+import j96 from '../../data/2024-07-26-SONDA.json';
+import j97 from '../../data/2024-07-27-PAGUE-MENOS.json';
+import j98 from '../../data/2024-07-28-CARREFOUR.json';
+import j99 from '../../data/2024-07-29-PERALTA.json';
+import j100 from '../../data/2024-07-30-SONDA.json';
+import j101 from '../../data/2024-07-31-CARREFOUR.json';
+import j102 from '../../data/2024-08-01-SUMERBOL.json';
+import j103 from '../../data/2024-08-03-CARREFOUR.json';
+import j104 from '../../data/2024-08-10-SUMERBOL.json';
+import j105 from '../../data/2024-08-11-SONDA.json';
+import j106 from '../../data/2024-08-19-CARREFOUR.json';
+import j107 from '../../data/2024-08-23-CARREFOUR.json';
+import j108 from '../../data/2024-08-25-CARREFOUR.json';
+import j109 from '../../data/2024-08-26-CARREFOUR.json';
+import j110 from '../../data/2024-08-27-CARREFOUR.json';
+import j111 from '../../data/2024-08-28-SUMERBOL.json';
+import j112 from '../../data/2024-08-30-SUMERBOL.json';
+import j113 from '../../data/2024-08-31-CATO.json';
 
 const data = {
   '2023-12-22': j0,
@@ -178,6 +203,31 @@ const data = {
   '2024-06-23': j86,
   '2024-06-24': j87,
   '2024-06-27': j88,
+  '2024-07-06': j89,
+  '2024-07-07': j90,
+  '2024-07-09': j91,
+  '2024-07-10': j92,
+  '2024-07-14': j93,
+  '2024-06-22': j94,
+  '2024-07-24': j95,
+  '2024-07-26': j96,
+  '2024-07-27': j97,
+  '2024-07-28': j98,
+  '2024-07-29': j99,
+  '2024-07-30': j100,
+  '2024-07-31': j101,
+  '2024-08-01': j102,
+  '2024-08-03': j103,
+  '2024-08-10': j104,
+  '2024-08-11': j105,
+  '2024-08-19': j106,
+  '2024-08-23': j107,
+  '2024-08-25': j108,
+  '2024-08-26': j109,
+  '2024-08-27': j110,
+  '2024-08-28': j111,
+  '2024-08-30': j112,
+  '2024-08-31': j113,
 };
 
 export function fetchPrices(regex: string) {
