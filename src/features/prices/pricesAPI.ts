@@ -112,6 +112,12 @@ import j110 from '../../data/2024-08-27-CARREFOUR.json';
 import j111 from '../../data/2024-08-28-SUMERBOL.json';
 import j112 from '../../data/2024-08-30-SUMERBOL.json';
 import j113 from '../../data/2024-08-31-CATO.json';
+import j114 from '../../data/2024-09-01-CARREFOUR.json';
+import j115 from '../../data/2024-09-03-CARREFOUR.json';
+import j116 from '../../data/2024-09-04-CARREFOUR.json';
+import j117 from '../../data/2024-09-07-PAGUE-MENOS.json';
+import j118 from '../../data/2024-09-08-SUMERBOL.json';
+import j119 from '../../data/2024-09-12-SONDA.json';
 
 const data = {
   '2023-12-22': j0,
@@ -228,6 +234,12 @@ const data = {
   '2024-08-28': j111,
   '2024-08-30': j112,
   '2024-08-31': j113,
+  '2024-09-01': j114,
+  '2024-09-03': j115,
+  '2024-09-04': j116,
+  '2024-09-07': j117,
+  '2024-09-08': j118,
+  '2024-09-12': j119,
 };
 
 export function fetchPrices(regex: string) {
