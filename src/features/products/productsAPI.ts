@@ -13,7 +13,7 @@ export function fetchProducts() {
     {regex: '(AVEIA)', text: 'Aveia'},
     {regex: '(AZEITE)', text: 'Azeite'},
     {regex: '(BACON|BAC PALETA)', text: 'Bacon'},
-    {regex: '(BANANA)', text: 'Banana'},
+    {regex: '(BANANA NANICA)', text: 'Banana'},
     {regex: '(BATATA)', text: 'Batata'},
     {regex: '(BERINJ)', text: 'Berinjela'},
     {regex: '(BILL|JACK)', text: 'Billy&Jack'},
