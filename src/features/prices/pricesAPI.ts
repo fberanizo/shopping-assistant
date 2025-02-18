@@ -171,6 +171,24 @@ import j169 from '../../data/2024-12-22-CARREFOUR.json';
 import j170 from '../../data/2024-12-24-SUMERBOL.json';
 import j171 from '../../data/2024-12-29-SUMERBOL.json';
 import j172 from '../../data/2024-12-30-SUMERBOL.json';
+import j173 from '../../data/2025-01-02-PAGUE-MENOS.json';
+import j174 from '../../data/2025-01-06-PAGUE-MENOS.json';
+import j175 from '../../data/2025-01-07-SONDA.json';
+import j176 from '../../data/2025-01-11-SUMERBOL.json';
+import j177 from '../../data/2025-01-12-SONDA.json';
+import j178 from '../../data/2025-01-19-PAGUE-MENOS.json';
+import j179 from '../../data/2025-01-20-SUMERBOL.json';
+import j180 from '../../data/2025-01-25-SONDA.json';
+import j181 from '../../data/2025-01-26-SUMERBOL.json';
+import j182 from '../../data/2025-01-30-SUMERBOL.json';
+import j183 from '../../data/2025-02-01-SONDA.json';
+import j184 from '../../data/2025-02-02-PAGUE-MENOS.json';
+import j185 from '../../data/2025-02-03-SUMERBOL.json';
+import j186 from '../../data/2025-02-04-SUMERBOL.json';
+import j187 from '../../data/2025-02-14-PAGUE-MENOS.json';
+import j188 from '../../data/2025-02-15-CARREFOUR.json';
+import j189 from '../../data/2025-02-16-SUMERBOL.json';
+
 
 const data = {
   '2023-12-22': j0,
@@ -346,6 +364,23 @@ const data = {
   '2024-12-24': j170,
   '2024-12-29': j171,
   '2024-12-30': j172,
+  '2025-01-02': j173,
+  '2025-01-06': j174,
+  '2025-01-07': j175,
+  '2025-01-11': j176,
+  '2025-01-12': j177,
+  '2025-01-19': j178,
+  '2025-01-20': j179,
+  '2025-01-25': j180,
+  '2025-01-26': j181,
+  '2025-01-30': j182,
+  '2025-02-01': j183,
+  '2025-02-02': j184,
+  '2025-02-03': j185,
+  '2025-02-04': j186,
+  '2025-02-14': j187,
+  '2025-02-15': j188,
+  '2025-02-16': j189,
 };
 
 export function fetchPrices(regex: string) {
