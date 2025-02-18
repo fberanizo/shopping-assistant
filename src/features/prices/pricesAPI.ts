@@ -135,6 +135,42 @@ import j133 from '../../data/2024-10-03-SONDA.json';
 import j134 from '../../data/2024-10-04-SUMERBOL.json';
 import j135 from '../../data/2024-10-07-PAGUE-MENOS.json';
 import j136 from '../../data/2024-10-10-CARREFOUR.json';
+import j137 from '../../data/2024-10-11-SUMERBOL.json';
+import j138 from '../../data/2024-10-12-CARREFOUR.json';
+import j139 from '../../data/2024-10-17-CARREFOUR.json';
+import j140 from '../../data/2024-10-18-SUMERBOL.json';
+import j141 from '../../data/2024-10-19-SONDA.json';
+import j142 from '../../data/2024-10-20-CARREFOUR.json';
+import j143 from '../../data/2024-10-22-SUMERBOL.json';
+import j144 from '../../data/2024-10-23-SUMERBOL.json';
+import j145 from '../../data/2024-10-25-PAGUE-MENOS.json';
+import j146 from '../../data/2024-11-01-SUMERBOL.json';
+import j147 from '../../data/2024-11-02-SONDA.json';
+import j148 from '../../data/2024-11-03-CARREFOUR.json';
+import j149 from '../../data/2024-11-06-PAGUE-MENOS.json';
+import j150 from '../../data/2024-11-07-SONDA.json';
+import j151 from '../../data/2024-11-10-PAGUE-MENOS.json';
+import j152 from '../../data/2024-11-13-SUMERBOL.json';
+import j153 from '../../data/2024-11-16-PAGUE-MENOS.json';
+import j154 from '../../data/2024-11-17-SUMERBOL.json';
+import j155 from '../../data/2024-11-18-CARREFOUR.json';
+import j156 from '../../data/2024-11-20-SUMERBOL.json';
+import j157 from '../../data/2024-11-23-PAGUE-MENOS.json';
+import j158 from '../../data/2024-11-24-CARREFOUR.json';
+import j159 from '../../data/2024-11-25-SUMERBOL.json';
+import j160 from '../../data/2024-11-26-SUMERBOL.json';
+import j161 from '../../data/2024-11-27-SONDA.json';
+import j162 from '../../data/2024-11-30-CARREFOUR.json';
+import j163 from '../../data/2024-12-08-SONDA.json';
+import j164 from '../../data/2024-12-09-PAGUE-MENOS.json';
+import j165 from '../../data/2024-12-11-SUMERBOL.json';
+import j166 from '../../data/2024-12-16-SONDA.json';
+import j167 from '../../data/2024-12-20-PAGUE-MENOS.json';
+import j168 from '../../data/2024-12-21-SONDA.json';
+import j169 from '../../data/2024-12-22-CARREFOUR.json';
+import j170 from '../../data/2024-12-24-SUMERBOL.json';
+import j171 from '../../data/2024-12-29-SUMERBOL.json';
+import j172 from '../../data/2024-12-30-SUMERBOL.json';
 
 const data = {
   '2023-12-22': j0,
@@ -274,6 +310,42 @@ const data = {
   '2024-10-04': j134,
   '2024-10-07': j135,
   '2024-10-10': j136,
+  '2024-10-11': j137,
+  '2024-10-12': j138,
+  '2024-10-17': j139,
+  '2024-10-18': j140,
+  '2024-10-19': j141,
+  '2024-10-20': j142,
+  '2024-10-22': j143,
+  '2024-10-23': j144,
+  '2024-10-25': j145,
+  '2024-11-01': j146,
+  '2024-11-02': j147,
+  '2024-11-03': j148,
+  '2024-11-06': j149,
+  '2024-11-07': j150,
+  '2024-11-10': j151,
+  '2024-11-13': j152,
+  '2024-11-16': j153,
+  '2024-11-17': j154,
+  '2024-11-18': j155,
+  '2024-11-20': j156,
+  '2024-11-23': j157,
+  '2024-11-24': j158,
+  '2024-11-25': j159,
+  '2024-11-26': j160,
+  '2024-11-27': j161,
+  '2024-11-30': j162,
+  '2024-12-08': j163,
+  '2024-12-09': j164,
+  '2024-12-11': j165,
+  '2024-12-16': j166,
+  '2024-12-20': j167,
+  '2024-12-21': j168,
+  '2024-12-22': j169,
+  '2024-12-24': j170,
+  '2024-12-29': j171,
+  '2024-12-30': j172,
 };
 
 export function fetchPrices(regex: string) {
