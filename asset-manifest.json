@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shopping-assistant/static/css/main.101ec5fc.css",
-    "main.js": "/shopping-assistant/static/js/main.c49d531f.js",
+    "main.js": "/shopping-assistant/static/js/main.0ab8d707.js",
     "static/js/787.6bf11ce6.chunk.js": "/shopping-assistant/static/js/787.6bf11ce6.chunk.js",
     "index.html": "/shopping-assistant/index.html",
     "main.101ec5fc.css.map": "/shopping-assistant/static/css/main.101ec5fc.css.map",
-    "main.c49d531f.js.map": "/shopping-assistant/static/js/main.c49d531f.js.map",
+    "main.0ab8d707.js.map": "/shopping-assistant/static/js/main.0ab8d707.js.map",
     "787.6bf11ce6.chunk.js.map": "/shopping-assistant/static/js/787.6bf11ce6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.101ec5fc.css",
-    "static/js/main.c49d531f.js"
+    "static/js/main.0ab8d707.js"
   ]
 }
